@@ -1,7 +1,5 @@
 import dataStructures.ArrayStack;
 
-//naprawic dla wiekszej ilosci znakow niz moze byc
-
 public class ONP {
     String convertToONP(String equation){
         ArrayStack<Character> stack = new ArrayStack<>(10);
